@@ -45,7 +45,7 @@ def upload():
     'Pay pal', 'Peak milk', 'Pepsi', 'PlayStation', 'Pringles', 'Puma', 'Reebok', 'Rolex',
     'Samsung', 'Sprite', 'Starbucks', 'Tesla', 'Tiktok', 'Twitter', 'YouTube', 'Zara'
 ]
-        text = "The given logo is fake"
+        text = "The given logo is " + str(index[preds[0]])
     return text
 if __name__ == '__main__':
     app.run(debug = False, threaded = False)
